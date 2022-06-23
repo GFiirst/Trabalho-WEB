@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+/*reset html*/
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+/* estilização*/
+body{
+    font-family:  'Work Sans', sans-serif;
+    color: rgb(224, 230, 241);
+    background-color: rgb(142, 102, 216);
+}
+header{
+    background-color: rgb(146, 85, 196);
+    display: flex; 
+    height: 70px;
+    justify-content: space-between;
+}
+.icons{ 
+    font-size: 33px;
+}
+.icons li{
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+}
+.icons a{
+    color: rgb(234, 237, 243);
+    text-decoration: none;
+}
+.icons a:hover{
+    color: rgb(152, 176, 255);
+}
+
+h2{
+    margin: 0;
+    font-size: 26px;
+}
+h1{ 
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+main{
+    margin: 20px;
+    gap: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 45px;
+    border: solid 5px rgb(146, 85, 196);
+}
+.cadastro{
+    padding: 25px;
+}
+.form-control{
+    background-color: rgb(142, 102, 216);
+    max-width: 250px;
+    outline: 0;
+    padding: 8px 16px;
+    border-radius: 15px;
+    padding: 10px;
+    border-color: rgb(239, 246, 252);
+}
+.texto{
+    padding: 25px;
+}
+p{  
+    width: 500px;
+    font-size: 18px;
+    text-align: left;
+}
+.funcao li{
+   
+}
+.funcao a{
+    width: 120px;
+    padding: 10px;
+    text-decoration: none;
+}
+.btn-check{
+    border:solid 2px rgb(224, 230, 241);
+    border-radius: 40px;
+}
