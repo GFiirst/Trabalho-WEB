@@ -114,8 +114,8 @@ main{
 img{
     width: 200px;
     border-radius: 50%;
-    margin: 10px;
-    margin-right: 45px;
+    margin: 45px;
+    margin-right: 125px;
     border: solid 5px rgb(146, 85, 196);
 }
 .cadastro{
@@ -138,15 +138,24 @@ p{
     font-size: 18px;
     text-align: left;
 }
-.funcao li{
-   
+.botaocadastro{
+    color: rgb(243, 237, 237);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 1px rgb(243, 237, 237);
+}
+.botaocadastro:hover{
+    color: rgb(243, 237, 237);
+    background-color: rgb(199, 119, 231);
+    border: solid 2px rgb(192, 100, 204);
 }
 .funcao a{
+    margin: 5px;
     width: 120px;
     padding: 10px;
     text-decoration: none;
 }
-.btn-check{
-    border:solid 2px rgb(224, 230, 241);
-    border-radius: 40px;
+.funcao{
+    margin-top: 35px;
 }
