@@ -67,6 +67,7 @@ input, select, textarea {
 
 /* estilização*/
 body{
+    Min-height: 100vh;
     font-family:  'Work Sans', sans-serif;
     color: rgb(224, 230, 241);
     background-color: rgb(142, 102, 216);
@@ -110,38 +111,56 @@ h2{
 main{
     margin: 20px;
     gap: 70px;
-    flex-direction: row;
     margin-top: 50px;
 }
 .tec{
-    height: 250px;
-    width: 400px;
+    display: flex;
+    flex-direction: row;
     margin: 45px;
+    justify-content: space-between;
+    align-items: center ;
 }
 .imagens{
     padding: 15px;
 }
-img{
-    display: inline;
+.imagens img{
     width: 65px;
-    margin: 15px;
+    margin: 10px;
 }
 .foto{
+    text-align: center;
     width: 250px;
     height: 250px;
     margin: 45px;
 }
 figcaption{
-    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    color: rgb(240, 150, 177);
 }
-.foto img{ 
+.min{
     width: 200px;
     border-radius: 50%;
     border: solid 5px rgb(146, 85, 196);
 }
-.foto img:hover{
+.min:hover{
     width: 210px;
     height: 210px;
+}
+.cursor {
+    position: absolute;
+    padding: 0;
+    margin-top: -82px;
+    margin-left: 63px;
+    width: 35px;
+}
+.logo p{
+    padding: 20px;
+    font-size: 25px;
+}
+.in{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .cadastro{
     padding: 25px;
@@ -168,7 +187,9 @@ p{
 }
 .botaocadastro{
     color: rgb(243, 237, 237);
-    margin: 15px;
+    background-color: rgba(221, 114, 216, 0.534);
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 10px;
     border-radius: 20px;
     border: solid 1px rgb(243, 237, 237);
